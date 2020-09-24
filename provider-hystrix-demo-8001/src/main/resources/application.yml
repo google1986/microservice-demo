@@ -29,6 +29,16 @@ eureka:
     instance-id: provider-hystrix-demo-8001 #自定义服务名称信息
     prefer-ip-address: true #访问路径可以显示IP信息
 
+# 配置 actuator 加载所有的端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+
 info:
   app.name: ${eureka.instance.instance-id}
   company.name: htzw

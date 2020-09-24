@@ -1,2 +1,8 @@
 server:
   port: 9003
+
+hystrix:
+  dashboard:
+    #添加白名单配置，不加的话，会出现以下提示信息
+    #Hystrix Dashboard 提示：Unable to connect to Command Metric Stream.
+    proxy-stream-allow-list: "*"
