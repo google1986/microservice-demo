@@ -1,0 +1,32 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: microservice-gateway-service
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true # 开启从注册中心动态创建路由的功能，利用微服务名称进行路由
+
+      routes: #路由可以是多个
+        - id: dept_get_routh #路由的ID，命名随意，没有固定规则但要求唯一，建议配合服务名称
+#          uri: http://localhost:8001
+          uri: lb://microservice-dept #匹配后提供服务的路由地址
+          predicates:
+            - Path=/dept/get/** #断言，路径相匹配的进行路由
+        - id: dept_list_routh
+#          uri: http://localhost:8001
+          uri: lb://microservice-dept
+          predicates:
+            - Path=/dept/list #断言，路径相匹配的进行路由
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
+  instance:
+    instance-id: gateway-demo-9527 #自定义服务名称信息
+    prefer-ip-address: true #访问路径可以显示IP信息
+

@@ -1,0 +1,21 @@
+server:
+  port: 9002
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+
+#Ribbon Eager加载，可解决首次加载慢的问题，因为Ribbon是懒加载机制
+ribbon:
+  eager-load:
+    enabled: true
+    clients: MICROSERVICE-DEPT
+
+#开启feign的hystrix支持,默认是false
+feign:
+  hystrix:
+    enabled: true
+logging:
+  level:
+    com.htzw.microservice.service.DeptClientService: debug

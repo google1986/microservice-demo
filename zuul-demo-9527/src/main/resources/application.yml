@@ -1,0 +1,26 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: microservice-zuul-gateway
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
+  instance:
+    instance-id: zuul-demo-9527 #自定义服务名称信息
+    prefer-ip-address: true #访问路径可以显示IP信息
+
+zuul:
+  prefix: /htzw #设置统一公共前缀
+  ignored-services: "*" #原真实服务名忽略，单个可以写具体服务名称，多个可以使用"*"
+  routes:
+    mydept.serviceId: microservice-dept
+    mydept.path: /mydept/**
+
+info:
+  app.name: ${eureka.instance.instance-id}
+  company.name: htzw
+  build.artifactId: ${project.artifactId}
+  build.version: ${project.version}

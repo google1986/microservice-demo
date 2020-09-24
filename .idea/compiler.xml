@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common-model-api" />
+        <module name="eureka-demo-7003" />
+        <module name="eureka-demo-7002" />
+        <module name="eureka-demo-7001" />
+        <module name="consumer-demo-9001" />
+        <module name="gateway-demo-9527" />
+        <module name="provider-demo-8003" />
+        <module name="provider-demo-8002" />
+        <module name="provider-demo-8001" />
+        <module name="consumer-demo-feign-9002" />
+        <module name="zuul-demo-9527" />
+        <module name="consumer-demo-hystrix-dashboard-9003" />
+        <module name="provider-hystrix-demo-8001" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="common-model-api" target="1.8" />
+      <module name="consumer-demo-9001" target="1.8" />
+      <module name="consumer-demo-feign-9002" target="1.8" />
+      <module name="consumer-demo-hystrix-dashboard-9003" target="1.8" />
+      <module name="eureka-demo-7001" target="1.8" />
+      <module name="eureka-demo-7002" target="1.8" />
+      <module name="eureka-demo-7003" target="1.8" />
+      <module name="gateway-demo-9527" target="1.8" />
+      <module name="microservice-demo" target="1.8" />
+      <module name="provider-demo-8001" target="1.8" />
+      <module name="provider-demo-8002" target="1.8" />
+      <module name="provider-demo-8003" target="1.8" />
+      <module name="provider-hystrix-demo-8001" target="1.8" />
+      <module name="zuul-demo-9527" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

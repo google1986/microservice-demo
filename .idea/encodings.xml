@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/common-model-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-model-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-demo-9001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-demo-9001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-demo-feign-9002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-demo-feign-9002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-demo-hystrix-dashboard-9003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-demo-hystrix-dashboard-9003/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-demo-7001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-demo-7001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-demo-7002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-demo-7002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-demo-7003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-demo-7003/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway-demo-9527/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway-demo-9527/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-demo-8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-demo-8001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-demo-8002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-demo-8002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-demo-8003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-demo-8003/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-hystrix-demo-8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-hystrix-demo-8001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuul-demo-9527/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuul-demo-9527/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
