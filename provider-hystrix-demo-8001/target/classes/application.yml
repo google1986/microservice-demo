@@ -38,7 +38,7 @@ management:
   endpoint:
     health:
       show-details: always
-      
+
 info:
   app.name: ${eureka.instance.instance-id}
   company.name: htzw

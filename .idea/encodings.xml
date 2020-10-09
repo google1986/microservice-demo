@@ -9,6 +9,8 @@
     <file url="file://$PROJECT_DIR$/consumer-demo-feign-9002/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consumer-demo-hystrix-dashboard-9003/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consumer-demo-hystrix-dashboard-9003/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-sleuth-demo-9001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-sleuth-demo-9001/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-demo-7001/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-demo-7001/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-demo-7002/src/main/java" charset="UTF-8" />
@@ -25,6 +27,7 @@
     <file url="file://$PROJECT_DIR$/provider-demo-8003/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/provider-hystrix-demo-8001/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/provider-hystrix-demo-8001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-sleuth-demo-8001/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zuul-demo-9527/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zuul-demo-9527/src/main/resources" charset="UTF-8" />
   </component>

@@ -22,6 +22,8 @@
         <module>consumer-demo-hystrix-dashboard-9003</module>
         <module>zuul-demo-9527</module>
         <module>gateway-demo-9527</module>
+        <module>provider-sleuth-demo-8001</module>
+        <module>consumer-sleuth-demo-9001</module>
     </modules>
 
 

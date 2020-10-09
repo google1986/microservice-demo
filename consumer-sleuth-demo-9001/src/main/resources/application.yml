@@ -1,0 +1,16 @@
+server:
+  port: 9001
+
+eureka:
+  client:
+    register-with-eureka: false  #表示不讲自己注册进Eureka Server中去，默认为true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/
+spring:
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+    sampler:
+      probability: 1
+  application:
+    name: consumer-sleuth-service
