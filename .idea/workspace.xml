@@ -110,7 +110,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ConsumerSleuthApplication9001">
-    <configuration default="true" type="JetRunConfigurationType">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="consumer-demo-9001" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -123,7 +123,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
       <module name="consumer-demo-9001" />
       <option name="filePath" />
       <option name="vmParameters" />
